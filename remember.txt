@@ -1,0 +1,8 @@
+1. status code 
+  - 200: OK. The request has succeeded.
+  - 201: Created. The request has been fulfilled and resulted in a new resource being created.
+
+2. To generate a JSON web token
+  - npm install --save jsonwebtoken
+  - import it as jwt from 'jsonwebtoken'
+  - jwt.sign() - .sign() method creates a new signature 
